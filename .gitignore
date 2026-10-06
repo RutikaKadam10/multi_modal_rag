@@ -23,4 +23,5 @@ data/eval_cache/
 
 # Milvus docker-compose local data
 volumes/
+notes.ipynb
 
