@@ -125,4 +125,3 @@ multi-modal-rag/
 - Figure descriptions are generated as prose captions. Exact numbers in charts can be paraphrased, which affects retrieval for numeric questions. Structured or multi-modal (e.g. CLIP-style) embeddings are a natural next step.
 - Evaluation uses a small synthetic question set (20 questions) with the expected chunk's raw content as the reference. Results are directional, not statistically conclusive.
 - Retrieval scale was tested at ~1,300 chunks; index trade-offs (FLAT vs. approximate) typically become more pronounced at larger scale.
-- DOCX export (Stage 9) is not yet implemented.
