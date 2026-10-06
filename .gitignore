@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Cached extraction artifacts
+data/di_cache/
+data/extracted/
+data/images/
+data/cleaned/
+data/caption_cache/
+data/chunks/
+data/eval_cache/
+
+# Milvus docker-compose local data
+volumes/
+
